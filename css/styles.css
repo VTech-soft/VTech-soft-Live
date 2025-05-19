@@ -1,0 +1,840 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+#V-Tech-std-inpage .bg-custom-1 {
+  background-color: #bf750b;
+}
+
+#V-Tech-std-inpage .bg-custom-2 {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+/* #V-Tech-std-inpage .navbar-dark .navbar-nav .active>.nav-link,
+#V-Tech-std-inpage .navbar-dark .navbar-nav .nav-link.active,
+#V-Tech-std-inpage .navbar-dark .navbar-nav .nav-link.show,
+#V-Tech-std-inpage .navbar-dark .navbar-nav .show>.nav-link {
+  color: black;
+}
+
+#V-Tech-std-inpage .navbar-dark .navbar-nav .nav-link {
+  color: rgb(21 19 19 / 50%);
+} */
+
+#V-Tech-std-inpage .navbar {
+  /* background-color: #547495 !important; */
+  /* background-color: #000000 !important; */
+  /* background-color: #0d1b42 !important; */
+  background-color: transparent !important;
+}
+
+/* #V-Tech-std-inpage .vtech-bg-1 {
+  background-image: url("../images/feature-1.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+} */
+
+#V-Tech-std-inpage .nav-item a {
+  color: #ffffff !important;
+}
+
+#V-Tech-std-inpage .nav-item a:hover {
+  border-bottom: 4px solid #bf750b;
+  color: #bf750b;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+
+#V-Tech-std-inpage .nav-item a:active {
+  border-bottom: 4px solid #bf750b;
+  color: #bf750b;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+
+#V-Tech-std-inpage .Vtech-background-image {
+  height: auto;
+  line-height: 0;
+  position: relative;
+  z-index: 1;
+}
+
+#V-Tech-std-inpage .Vtech-f1 {
+  clear: both;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+#V-Tech-std-inpage .Vtech-f1 .Vtech-text-block {
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  padding-top: 30px;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 0;
+  z-index: 2;
+}
+
+#V-Tech-std-inpage .Vtech-std-content {
+  padding: 15px;
+}
+
+#V-Tech-std-inpage .Vtech-f1 .Vtech-top {
+  top: 5.5555%
+}
+
+#V-Tech-std-inpage .Vtech-f1 .Vtech-middle {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+#V-Tech-std-inpage .Vtech-f1 .Vtech-bottom {
+  bottom: 5.5555%
+}
+
+#V-Tech-std-inpage .Vtech-std-pad {
+  padding: 15px;
+}
+
+#V-Tech-std-inpage .Vtech-std-desc {
+  font-family: 'OptimisticDisplay-Medium', sans-serif;
+  color: #000;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4;
+  overflow: hidden;
+  padding: 0 0 10px 0;
+}
+
+#Vtech-inpage #V-Tech-std-inpage .Vtech-std-title {
+  font-family: "OptimisticDisplay-Medium", "Arial", "Helvetica", sans-serif;
+  font-size: 20px;
+  color: #bf750b;
+  line-height: 1.2;
+  font-weight: 500;
+  padding: 0 0 10px 0;
+}
+
+/* Main title in orange */
+/* Subtitle in blue gradient */
+#V-Tech-std-inpage .vtech-feature-7 .Vtech-sub-title,
+#V-Tech-std-inpage .vtech-feature-2 .Vtech-sub-title {
+  background: none;
+  color: #fff;
+  /* or try #c7d0e2 for a soft light blue */
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+}
+
+#V-Tech-std-inpage .Vtech-sub-title {
+  font-family: "OptimisticDisplay-Medium", "Arial", "Helvetica", sans-serif;
+  font-size: 28px;
+  /* color: #0e4a51; */
+  /* color: #83acd8; */
+  line-height: 1.2;
+  font-weight: 400;
+  padding: 0 0 10px 0;
+  background: linear-gradient(129deg, #0d1b42 20%, #13547a 46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+#V-Tech-std-inpage .vtech-feature-2 .container-fluid,
+#V-Tech-std-inpage .vtech-feature-2 .container {
+  padding: 0px;
+}
+
+#V-Tech-std-inpage .Vtech-std-button button {
+  background-color: #bf750b;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#V-Tech-std-inpage .Vtech-std-button button:hover {
+  background-color: #bf750b;
+  color: white;
+  border: none;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+
+#V-Tech-std-inpage .Vtech-std-button button a {
+  color: white;
+}
+
+#V-Tech-std-inpage .btn-danger {
+  color: #fff;
+  background-color: #bf750b;
+  border-color: #bf750b;
+}
+
+#V-Tech-std-inpage .Vtech-section-top {
+  margin-top: 3%;
+}
+
+#V-Tech-std-inpage .Vtech-section-bottom {
+  margin-bottom: 3%;
+}
+
+#V-Tech-std-inpage .Vtech-img-responsive {
+  display: block;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+#V-Tech-std-inpage .bg-gray {
+  box-shadow: 2px 2px 0px 0px rgb(0 0 0 / 7%);
+  -webkit-box-shadow: 2px 2px 0px 0px rgb(0 0 0 / 7%);
+  -moz-box-shadow: 2px 2px 0px 0px rgb(0 0 0 / 7%);
+  background-color: #F7F7F7;
+}
+
+#V-Tech-std-inpage .bg-gray .icons {
+  background-color: #ffffff;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+
+#V-Tech-std-inpage .vtech-feature-5,
+#V-Tech-std-inpage .vtech-feature-3 {
+  background: #DFE7E9;
+  padding: 60px 30px;
+}
+
+#V-Tech-std-inpage .bg-gray .Vtech-sub-title {
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  /* Required for pseudo-elements */
+  padding-bottom: 15px;
+  /* Space for the borders */
+  margin-bottom: 20px;
+  /* Optional: Add spacing below the title */
+  display: inline-block;
+  /* Make the border match the text width */
+  text-align: center;
+  /* Center-align the text */
+}
+
+#V-Tech-std-inpage .bg-gray .Vtech-sub-title::before {
+  content: '';
+  display: block;
+  height: 4px;
+  /* Thickness of the border */
+  width: 61%;
+  /* Each line is 30% of the title's width */
+  background-color: #bf750b;
+  /* Border color */
+  border-radius: 5px;
+  /* Add radius to the border */
+  position: absolute;
+  bottom: 0;
+  /* Align the lines at the bottom of the title */
+}
+
+#V-Tech-std-inpage .bg-gray .Vtech-sub-title::after {
+  content: '';
+  display: block;
+  height: 4px;
+  /* Thickness of the border */
+  width: 34%;
+  /* Each line is 30% of the title's width */
+  background-color: #bf750b;
+  /* Border color */
+  border-radius: 5px;
+  /* Add radius to the border */
+  position: absolute;
+  bottom: 0;
+  /* Align the lines at the bottom of the title */
+}
+
+#V-Tech-std-inpage .bg-gray .Vtech-sub-title::before {
+  left: 0;
+  /* Position the first line at the start of the title */
+}
+
+#V-Tech-std-inpage .bg-gray .Vtech-sub-title::after {
+  right: 0;
+  /* Position the second line at the end of the title */
+}
+
+#V-Tech-std-inpage .vtech-feature-7 {
+  /* background-color: #0d1b42; */
+  background-image: linear-gradient(90deg, #0d1b42 40%, #13547a 100%);
+
+
+}
+
+#V-Tech-std-inpage .vtech-feature-7 .Vtech-border-radius {
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px 10px;
+}
+
+#V-Tech-std-inpage .Vtech-input-pad {
+  padding: 10px 40px;
+}
+
+#V-Tech-std-inpage .vtech-feature-7 .V-tech-input {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #F7F7F7;
+  border: 1px solid #f7f7f7;
+  height: 40px;
+}
+
+#V-Tech-std-inpage .vtech-feature-7 .V-tech-input-textarea {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #F7F7F7;
+  border: 1px solid #f7f7f7;
+}
+
+#V-Tech-std-inpage .btn-submit {
+  background-color: #bf750b;
+  color: #fff;
+}
+
+/* Add at the end of your styles.css */
+.Vtech-contact-card {
+  padding: 30px 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: none !important;
+}
+
+.Vtech-contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.Vtech-contact-icon {
+  width: 56px;
+  height: 56px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  font-size: 2rem;
+  color: #bf750b;
+}
+
+.Vtech-contact-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 4px;
+}
+
+.Vtech-contact-title.call,
+.Vtech-contact-title.email,
+.Vtech-contact-title.location {
+  color: #bf750b;
+}
+
+.Vtech-contact-text {
+  color: #222;
+  font-size: 1rem;
+}
+
+.Vtech-contact-social-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 24px 0 12px 0;
+  color: #222;
+}
+
+.Vtech-contact-social {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.Vtech-contact-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #bf750b;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 25px;
+  transition: background 0.2s;
+  text-decoration: none;
+}
+
+.Vtech-contact-social a:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #bf750b;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 25px;
+  transition: background 0.2s;
+  text-decoration: none;
+}
+
+
+
+.Vtech-contact-icon i.fas {
+  color: #bf750b;
+  font-size: 1.5rem;
+}
+
+/* Footer CSS */
+/* --- Custom Footer Styles --- */
+footer.bg-dark {
+  /* background: #0d1b42 !important; */
+  background-image: linear-gradient(90deg, #0d1b42 40%, #13547a 100%);
+  color: #fff;
+  font-family: 'OptimisticDisplay-Medium', Arial, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  margin-top: 20px;
+}
+
+footer .fw-bold,
+footer h5 {
+  color: #fff;
+}
+
+footer .fw-bold span.d-block,
+footer h5 span.d-block {
+  background: #bf750b;
+  height: 4px;
+  width: 40px;
+  border-radius: 2px;
+  margin-top: 6px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+footer .rounded-circle {
+  background: #bf750b !important;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .fw-bold.fs-4 {
+  color: #fff;
+  font-size: 1.5rem !important;
+  margin-left: 10px;
+}
+
+footer .small,
+footer ul li,
+footer p {
+  color: #c7d0e2 !important;
+  font-size: 1rem;
+}
+
+footer .d-flex.gap-2 a {
+  background: #fff !important;
+  color: #bf750b !important;
+  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  font-size: 1.5rem;
+  margin-right: 8px;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .d-flex.gap-2 a:last-child {
+  margin-right: 0;
+}
+
+footer .d-flex.gap-2 a:hover {
+  background: #bf750b !important;
+  color: #fff !important;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer .text-danger {
+  color: #bf750b !important;
+}
+
+footer .bg-white {
+  background: #fff !important;
+}
+
+footer .d-flex.align-items-center>span {
+  border-radius: 12px !important;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+
+footer .ms-3 {
+  margin-left: 1rem !important;
+}
+
+footer .form-control {
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  color: #222;
+  font-size: 1rem;
+  padding: 10px 16px;
+}
+
+footer .form-control:focus {
+  box-shadow: 0 0 0 2px #bf750b33;
+  border-color: #bf750b;
+}
+
+footer .btn-danger {
+  background: #bf750b !important;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 0;
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+
+footer .btn-danger:hover {
+  background: #bf750b !important;
+  color: #fff;
+}
+
+@media (max-width: 991.98px) {
+  footer .row>div {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  footer .fw-bold.fs-4 {
+    font-size: 1.2rem !important;
+  }
+
+  footer .d-flex.gap-2 a {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+
+
+  footer .d-flex.align-items-center img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  #V-Tech-std-inpage .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  #V-Tech-std-inpage .vtech-feature-2,
+  #V-Tech-std-inpage .vtech-feature-2 img {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #V-Tech-std-inpage .vtech-feature-2 img {
+    height: 300px;
+    /* or auto, or any value you want */
+    object-fit: cover;
+  }
+
+  #V-Tech-std-inpage .Vtech-f1 {
+    position: relative;
+  }
+
+  #V-Tech-std-inpage .Vtech-f1 .Vtech-text-block {
+    position: relative;
+  }
+
+  #V-Tech-std-inpage .Vtech-f1 .Vtech-middle {
+    transform: translateY(0%);
+  }
+
+  #V-Tech-std-inpage .vtech-feature-7 .p-5 {
+    padding: 1rem !important;
+  }
+
+  #V-Tech-std-inpage .Vtech-input-pad {
+    padding: 10px 10px;
+  }
+
+  /* Make collapsed navbar menu background and text visible */
+  #V-Tech-std-inpage .navbar-dark .navbar-collapse {
+    background: linear-gradient(90deg, #0d1b42 40%, #13547a 100%);
+    /* or your preferred color */
+  }
+
+  #V-Tech-std-inpage .navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+  }
+
+  #V-Tech-std-inpage .navbar-dark .navbar-nav .nav-link:hover,
+  #V-Tech-std-inpage .navbar-dark .navbar-nav .nav-link:focus {
+    color: #ffc107 !important;
+  }
+
+  /* Style the Get in touch button for mobile */
+  #V-Tech-std-inpage .navbar-dark .navbar-nav .btn-danger {
+    color: #fff;
+    background-color: #bf750b;
+    border: none;
+    margin: 8px 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  /* Make the navbar toggler icon white */
+  #V-Tech-std-inpage .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  }
+
+
+  #V-Tech-std-inpage .vtech-feature-2 .Vtech-sub-title {
+    background: linear-gradient(129deg, #0d1b42 20%, #13547a 46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+@media (min-width: 576px) {
+  #V-Tech-std-inpage .navbar-expand-sm .navbar-collapse {
+    justify-content: end;
+  }
+
+  #V-Tech-std-inpage .Vtech-f1 .Vtech-text-block {
+    padding-top: 0px;
+  }
+
+  #V-Tech-std-inpage .footer-logo {
+    margin-left: 30px;
+  }
+}
+
+#V-Tech-std-inpage body {
+  opacity: 0;
+  transition: opacity 0.5s;
+  /* Reduced from 1s to 0.3s */
+}
+
+#V-Tech-std-inpage body.loaded {
+  opacity: 1;
+}
+
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+#V-Tech-std-inpage .btn-danger,
+#V-Tech-std-inpage .btn-submit {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#V-Tech-std-inpage .btn-danger:hover,
+#V-Tech-std-inpage .btn-submit:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(191, 117, 11, 0.2);
+}
+
+#V-Tech-std-inpage .img-fluid {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+/* stycky navbar */
+/* ...existing code... */
+
+#V-Tech-std-inpage .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  transition: box-shadow 0.3s, background 0.3s;
+  box-shadow: none;
+}
+
+/* Add shadow and slight background change when scrolled */
+#V-Tech-std-inpage .navbar.scrolled {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+  background-image: linear-gradient(90deg, #0d1b42 40%, #13547a 100%);
+  background-color: #0d1b42 !important;
+  /* fallback */
+  animation: navbarFadeIn 0.5s;
+}
+
+#Vtech-inpage .container-fluid {
+  padding: 0px !important;
+}
+
+@keyframes navbarFadeIn {
+  from {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Add padding to body to prevent content being hidden under navbar */
+#V-Tech-std-inpage {
+  padding-top: 56px;
+  /* Adjust if your navbar is taller */
+}
+
+/* ...existing code... */
+.zoom-effect {
+  transition: transform 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.zoom-effect:hover {
+  transform: scale(1.08);
+  z-index: 2;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #fff;
+  /* White background for visibility */
+  border-radius: 50%;
+  filter: invert(36%) sepia(97%) saturate(7472%) hue-rotate(357deg) brightness(97%) contrast(119%);
+  /* This filter makes the arrow red. */
+  width: 48px;
+  height: 48px;
+}
+
+.carousel-control-next {
+  right: -8% !important;
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: -8% !important;
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+
+.vtech-feature-1 {
+  background-image: url("../images/feature-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.vtech-feature-1 .Vtech-sub-title {
+  color: #ffffff !important;
+  text-decoration-color: #ffffff !important;
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.Vtech-middle-bg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  z-index: 10;
+  border-radius: 10px;
+  opacity: 0.95;
+}
+
+/* Fixed background image with overlay for vtech-feature-4 */
+.vtech-feature-4 {
+  position: relative;
+  background: url("../images/bg-4.jpg") center center/cover no-repeat fixed;
+  /* Use your preferred image */
+  z-index: 1;
+  overflow: hidden;
+}
+
+.vtech-feature-4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(63 19 20 /0.55);
+  z-index: 2;
+  pointer-events: none;
+  overflow: hidden;
+  filter: brightness(0.1);
+}
+
+.vtech-feature-4>* {
+  position: relative;
+  z-index: 3;
+}
