@@ -40,7 +40,7 @@ body {
 } */
 
 #V-Tech-std-inpage .nav-item a {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 #V-Tech-std-inpage .nav-item a:hover {
@@ -751,20 +751,20 @@ footer .btn-danger:hover {
 }
 
 /* ...existing code... */
-.zoom-effect {
+#V-Tech-std-inpage .zoom-effect {
   transition: transform 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
-.zoom-effect:hover {
+#V-Tech-std-inpage .zoom-effect:hover {
   transform: scale(1.08);
   z-index: 2;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #fff;
+#V-Tech-std-inpage .carousel-control-prev-icon,
+#V-Tech-std-inpage .carousel-control-next-icon {
+  /* background-color: #fff; */
   /* White background for visibility */
   border-radius: 50%;
   filter: invert(36%) sepia(97%) saturate(7472%) hue-rotate(357deg) brightness(97%) contrast(119%);
@@ -773,19 +773,19 @@ footer .btn-danger:hover {
   height: 48px;
 }
 
-.carousel-control-next {
+#V-Tech-std-inpage .carousel-control-next {
   right: -8% !important;
   top: 50% !important;
   transform: translateY(-50%);
 }
 
-.carousel-control-prev {
+#V-Tech-std-inpage .carousel-control-prev {
   left: -8% !important;
   top: 50% !important;
   transform: translateY(-50%);
 }
 
-.vtech-feature-1 {
+#V-Tech-std-inpage .vtech-feature-1 {
   background-image: url("../images/feature-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -793,14 +793,14 @@ footer .btn-danger:hover {
   height: 500px;
 }
 
-.vtech-feature-1 .Vtech-sub-title {
+#V-Tech-std-inpage .vtech-feature-1 .Vtech-sub-title {
   color: #ffffff !important;
   text-decoration-color: #ffffff !important;
   background: none !important;
   -webkit-text-fill-color: #ffffff !important;
 }
 
-.Vtech-middle-bg {
+#V-Tech-std-inpage .Vtech-middle-bg {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -812,15 +812,17 @@ footer .btn-danger:hover {
 }
 
 /* Fixed background image with overlay for vtech-feature-4 */
-.vtech-feature-4 {
+#V-Tech-std-inpage .vtech-feature-4 {
   position: relative;
-  background: url("../images/bg-4.jpg") center center/cover no-repeat fixed;
-  /* Use your preferred image */
+  background: url("../images/banner.png") center center/cover no-repeat fixed;
   z-index: 1;
   overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.vtech-feature-4::before {
+#V-Tech-std-inpage .vtech-feature-4::before {
   content: "";
   position: absolute;
   top: 0;
@@ -834,7 +836,103 @@ footer .btn-danger:hover {
   filter: brightness(0.1);
 }
 
-.vtech-feature-4>* {
+#V-Tech-std-inpage .vtech-feature-4>* {
   position: relative;
   z-index: 3;
 }
+
+#V-Tech-std-inpage .text-white {
+  color: #ffffff !important;
+  text-decoration-color: #ffffff !important;
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+/* About page css */
+/* Remove navbar background only on About page */
+.about-page .vtech-feature-1 {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+  background-image: linear-gradient(90deg, #0d1b42 40%, #13547a 100%) !important;
+  background-color: #0d1b42 !important;
+  animation: navbarFadeIn 0.5s;
+  height: 100px !important;
+}
+
+/* postfolio css */
+/* Portfolio Filter Tabs */
+#V-Tech-std-inpage #portfolioTabs .nav-link {
+  background: #fff;
+  color: #333 !important;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 0 6px 10px 0;
+  padding: 8px 28px;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#V-Tech-std-inpage #portfolioTabs .nav-link.active,
+#V-Tech-std-inpage #portfolioTabs .nav-link:focus,
+#V-Tech-std-inpage #portfolioTabs .nav-link:hover {
+  background: #bf750b;
+  /* Red shade for active/hover */
+  color: #fff !important;
+  border-color: #bf750b;
+  box-shadow: 0 2px 8px rgba(229, 57, 53, 0.08);
+  text-decoration: none;
+}
+
+#V-Tech-std-inpage #portfolioTabs {
+  margin-bottom: 32px;
+}
+
+/* Responsive grid for portfolio items */
+#portfolioGrid .portfolio-item {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+#portfolioGrid .portfolio-item img {
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 12px;
+}
+
+/* Optional: Center the Get In Touch button */
+.portfolio-section .btn {
+  margin-top: 24px;
+  border-radius: 8px;
+  padding: 10px 36px;
+  font-weight: 500;
+  background: #bf750b;
+  border: none;
+}
+
+.portfolio-section .btn:hover {
+  background: #bf750b;
+  color: #fff;
+}
+
+/* portfolio end */
+
+#V-Tech-std-inpage li.nav-item {
+  margin-right: 12px;
+}
+
+/* ...existing code... */
+
+#V-Tech-std-inpage .navbar-nav .nav-link.active,
+#V-Tech-std-inpage .navbar-nav .nav-link.show,
+#V-Tech-std-inpage .navbar-nav .active>.nav-link {
+  color: #bf750b !important;
+  border-bottom: 4px solid #bf750b;
+  font-weight: 600;
+  background: none;
+  transition: all 0.3s;
+}
+
+/* ...existing code... */
