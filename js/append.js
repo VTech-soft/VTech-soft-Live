@@ -26,3 +26,4 @@ function shareLocation() {
         alert('Location link copied to clipboard!');
     }
 }
+

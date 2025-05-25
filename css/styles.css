@@ -923,7 +923,7 @@ footer .btn-danger:hover {
   margin-right: 12px;
 }
 
-/* ...existing code... */
+
 
 #V-Tech-std-inpage .navbar-nav .nav-link.active,
 #V-Tech-std-inpage .navbar-nav .nav-link.show,
@@ -934,5 +934,6 @@ footer .btn-danger:hover {
   background: none;
   transition: all 0.3s;
 }
+
 
 /* ...existing code... */
